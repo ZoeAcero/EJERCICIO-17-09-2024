@@ -10,7 +10,7 @@ public class Bicicleta {
     }
 
     public void acelerar(){
-        VelocidadActual += 2;
+        VelocidadActual *= 2;
 
     }
 
