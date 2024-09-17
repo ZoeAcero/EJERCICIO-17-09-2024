@@ -25,4 +25,16 @@ public class Bicicleta {
     public void cambiarPiñon(int piñon){
         piñonActual = piñon;
     }
+
+    public int getVelocidadActual(){
+        return VelocidadActual;
+    }
+
+    public int getPlatoActual(){
+        return platoActual;
+    }
+
+    public int getPiñonActual(){
+        return piñonActual;
+    }
 }
