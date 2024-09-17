@@ -8,4 +8,21 @@ public class Bicicleta {
         this.platoActual = platoActual;
         this.piñonActual = piñonActual;
     }
+
+    public void acelerar(){
+        VelocidadActual += 2;
+
+    }
+
+    public void frenar(){
+        VelocidadActual /= 2;
+    }
+
+    public void cambiarPlato(int plato){
+        platoActual = plato;
+    }
+
+    public void cambiarPiñon(int piñon){
+        piñonActual = piñon;
+    }
 }
