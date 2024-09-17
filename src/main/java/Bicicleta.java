@@ -25,5 +25,5 @@ public class Bicicleta {
     public void cambiarPiñon(int piñon){
         piñonActual = piñon;
     }
-    
+
 }
